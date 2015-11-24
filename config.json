@@ -1,0 +1,27 @@
+{
+  "connectors": {
+    "irc": {
+      "irchighway": {
+        "userName": "loa-user-1",
+        "realName": "loa IRC connector",
+        "port": 9999,
+        "localAddress": null,
+        "debug": false,
+        "showErrors": false,
+        "autoRejoin": false,
+        "autoConnect": true,
+        "channels": ["#ebooks"],
+        "secure": true,
+        "selfSigned": true,
+        "certExpired": true,
+        "floodProtection": false,
+        "floodProtectionDelay": 1000,
+        "sasl": false,
+        "stripColors": true,
+        "channelPrefixes": "&#",
+        "messageSplit": 512,
+        "encoding": "UTF-8"
+      }
+    }
+  }
+}

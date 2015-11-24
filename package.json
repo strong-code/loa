@@ -1,0 +1,27 @@
+{
+  "name": "loa",
+  "description": "Library of Alexandria",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Colin",
+    "url": "http://strongco.de",
+    "email": "colin@strongco.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strong-code/loa.git"
+  },
+  "bugs": "https://github.com/strong-code/loa/issues",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "pg": "~4.4.3",
+    "irc": "~0.4.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
