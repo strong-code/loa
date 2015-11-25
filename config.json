@@ -2,7 +2,7 @@
   "connectors": {
     "irc": {
       "irchighway": {
-        "userName": "loa-user-1",
+        "userName": "loa-user",
         "realName": "loa IRC connector",
         "port": 9999,
         "localAddress": null,
@@ -20,7 +20,8 @@
         "stripColors": true,
         "channelPrefixes": "&#",
         "messageSplit": 512,
-        "encoding": "UTF-8"
+        "encoding": "UTF-8",
+        "dccAutoAccept": ["Search", "BradPitt"]
       }
     }
   }
