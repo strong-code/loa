@@ -19,7 +19,9 @@
   "license": "GPL-3.0",
   "dependencies": {
     "pg": "~4.4.3",
-    "irc": "~0.4.0"
+    "irc": "~0.4.0",
+    "unzip": "~0.1",
+    "stream-buffers": "~3.0"
   },
   "engines": {
     "node": ">=4.0.0"
